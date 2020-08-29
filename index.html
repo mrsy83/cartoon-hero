@@ -4,19 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tangled-Rupanzel</title>
+    <link href= "css/hero.css" rel= "stylesheet" type= "text/css">
     <link rel="shortcut icon" type="image/x-icon" href="imgs/Rapunzel-Tangled.jpg" />
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
   </head>
   <body>
     <!--Header Element-->
     <header>
       <img src="imgs/Rapunzel-Tangled.jpg" />
-      <h1>Rupanzel(Tangled)</h1>
+      <h1>Rupanzel (Tangled)</h1>
     </header>
     <!--Main Element-->
     <main>
       <h2>About Rupanzel from the movie Tangled</h2>
       <p>
-        Tangled is a American computer-animated ,musical fantasy film produced
+        <a href= "https://en.wikipedia.org/wiki/Tangled" target="_blank">Tangled</a> is a American computer-animated ,musical fantasy film produced
         by
         <a
           href="https://disney.fandom.com/wiki/Walt_Disney_Animation_Stud"
@@ -67,30 +70,31 @@
         the tower.
       </p>
       <!--Friends-->
-      <img src="imgs/Flynn.jpeg" />
-      <img src="imgs/Maximus.jpeg" />
-      <img src="imgs/pascal.jpeg" />
-
-      <ol>
-        <li>
-          <a href="https://disney.fandom.com/wiki/Flynn_Rider" target="_blank">
-            Flynn Rider- thief
-          </a>
-        </li>
-        <li>
-          <a
+      <div class= "cards-container">
+      <div class= "card">
+        <img src="imgs/Flynn.jpeg"  />
+        <div class= "container">
+            <h4><b><a href="https://disney.fandom.com/wiki/Flynn_Rider" target="_blank">Flynn Rider</a></h4>
+        </div>
+      </div>
+      <div class= "card">
+      <img src="imgs/Maximus.jpeg"  />
+      <div class= "container">
+          <h4><b><a
             href="https://disney.fandom.com/wiki/Maximus#:~:text=Maximus%20is%20a%20supporting%20character,arch%2Drival%20of%20Flynn%20Rider."
             target="_blank"
-          >
-            Maximus-The Royal Horse
-          </a>
-        </li>
-        <li>
-          <a href="https://disney.fandom.com/wiki/Pascal" target="_blank">
-            Pascal-The Frog
-          </a>
-        </li>
-      </ol>
+          >Maximus</a></b></h4>
+      </div>
+    </div>
+    <div class= "card">
+      <img src="imgs/pascal.jpeg" />
+      <div class="container">
+        <h4><b><a href="https://disney.fandom.com/wiki/Pascal" target="_blank">Pascal</a></b></h4>
+    </div>
+    </div>
+</div>
+      
+    <h2>Rupanzel's Ememy</h2>
       <p>
         The villan of this story is
         <a href="https://disney.fandom.com/wiki/Mother_Gothel" target="_blank">
@@ -99,7 +103,12 @@
         .She posed as Rupanzel's loving ,albeit overprotective mother with a
         mission to protect her daughter from the cruelty of the outside world.
       </p>
-      <img src="imgs/Goleth.jpeg" />
+      <div class= "card">
+      <img  class= "villan" src="imgs/Goleth.jpeg" />
+      <div class= "container">
+          <h4><b><a href="https://disney.fandom.com/wiki/Mother_Gothel" target="_blank">Gothel</a></b></h4>
+      </div>
+    </div>
     </main>
       <!--footer-->
       <footer>

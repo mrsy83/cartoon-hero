@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  background-color: #fad7a0;
+}
+h1,
+h2 {
+  font-family: 'Tangerine', cursive;
+}
+header {
+  background-color: #a569bd;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+header h1 {
+  color: #ecf0f1;
+  font-size: 60px;
+  font-weight: 900;
+  padding-top: 20px;
+}
+header img {
+  border-radius: 250px;
+  width: 900px;
+  border: 20px solid #eb984e;
+}
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+main img {
+  max-width: 100%;
+}
+h2 {
+  font-size: 45px;
+  font-weight: 900px;
+  color: #8e44ad;
+  margin: 40px 0 20px;
+}
+p {
+  font-size: 20px;
+}
+a {
+  color: #a569bd;
+  text-decoration: none;
+}
+a:hover {
+  color: #eb984e;
+}
+.cards-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+
+  width: 80%;
+}
+.card {
+  margin-top: 5px;
+  width: 80%;
+
+  padding: 20px;
+}
+.container {
+  padding: 3px 7px;
+  text-align: left;
+}
+
+footer {
+  background-color: #a569bd;
+  text-align: center;
+  color: white;
+  padding: 50px;
+}
+footer p {
+  margin: 0;
+  font-size: 20px;
+}
