@@ -84,7 +84,10 @@ footer p {
   font-size: 20px;
 }
 @media (max-width:400px){
-  .header img{
+  header{
+    background-color:#a569bd;
+  }
+  header img{
     width: 100%;
   }
 }
